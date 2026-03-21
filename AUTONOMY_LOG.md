@@ -21,8 +21,13 @@
 - [x] 发现未完成的任务（Whisper 语音识别）
 - [x] 创建进化计划（IMPROVEMENT_PLAN.md）
 - [x] 验证 SearXNG 搜索功能（✅ 正常工作）
+- [x] 搜索 AI 助手开源项目和发布渠道
+- [x] 发现 ClawHub 技能发布平台
+- [x] 安装 ClawHub CLI
+- [x] 创建发布计划（PUBLISH_PLAN.md）
+- [ ] ClawHub 登录（需要豪哥协助）
+- [ ] 批量发布技能到 ClawHub
 - [ ] 安装 Whisper 依赖（暂停 - torch 下载太慢）
-- [ ] 第一次能力自检
 - [ ] 设置每日 cron 任务
 
 ### 发现的问题

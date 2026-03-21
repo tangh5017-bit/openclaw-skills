@@ -1,0 +1,35 @@
+# Seedance 2.0 Video Script - Studio Ghibli Transformation
+
+## Video Structure
+- Duration: 20 seconds
+- Aspect Ratio: 9:16 (vertical)
+- Style: Studio Ghibli anime
+
+## Scene Breakdown
+
+### Scene 1 (0-3 seconds) - HOOK
+Text: "你有没有想过自己变成吉卜力动画的样子？"
+Visual: Person looking curious, wondering expression
+Audio: Upbeat, magical music starts
+
+### Scene 2 (4-8 seconds) - SETUP  
+Text: "让我用AI技术来实现这个梦想！"
+Visual: Person showing AI interface or magic wand gesture
+Audio: Music builds up with wonder
+
+### Scene 3 (9-15 seconds) - TRANSFORMATION
+Text: "看！这就是我的吉卜力风格版本！"
+Visual: Smooth transformation from real person to Ghibli character
+Audio: Magical transformation sound effect
+
+### Scene 4 (16-20 seconds) - CALL TO ACTION
+Text: "想要知道怎么做到的吗？关注我获取教程！"
+Visual: Final Ghibli character waving, channel logo appears
+Audio: Music resolves, friendly tone
+
+## Technical Specifications
+- Frame Rate: 30fps
+- Resolution: 1080x1920
+- Color Palette: Soft pastels, warm tones
+- Lighting: Natural, soft shadows
+- Background: Magical forest or sky setting

@@ -1,0 +1,7 @@
+{
+  "title": "Ghibli Style Transformation",
+  "duration": "20 seconds",
+  "frames": 4,
+  "format": "GIF alternative",
+  "description": "High-quality Ghibli-style transformation sequence ready for video creation when ffmpeg is available"
+}

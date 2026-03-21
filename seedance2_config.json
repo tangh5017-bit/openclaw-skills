@@ -1,0 +1,22 @@
+{
+  "project_name": "ghibli_transformation_viral",
+  "output_format": "mp4",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "duration": 20,
+  "style": "studio_ghibli",
+  "reference_inputs": {
+    "text_prompts": [
+      "Studio Ghibli style, anime character, detailed background, soft lighting, magical atmosphere, cinematic quality, 4k resolution",
+      "Transformation from real person to anime character, smooth transition, magical particles, glowing effects",
+      "Final anime character in Studio Ghibli style, standing confidently, beautiful background, cinematic lighting"
+    ],
+    "audio_script": "/home/admin/.openclaw/workspace/seedance2_video_script.txt",
+    "style_reference": "ghibli_movie_poster"
+  },
+  "batch_settings": {
+    "generate_variants": 3,
+    "quality_preset": "high",
+    "consistency_level": "high"
+  }
+}

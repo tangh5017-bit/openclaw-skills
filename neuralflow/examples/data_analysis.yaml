@@ -1,0 +1,65 @@
+name: Data Analysis Pipeline
+description: 数据分析工作流
+version: 1.0
+
+agents:
+  - id: collector
+    type: data
+    name: Data Collector
+    description: 收集数据
+
+  - id: cleaner
+    type: data
+    name: Data Cleaner
+    description: 清洗数据
+
+  - id: analyst
+    type: analysis
+    name: Data Analyst
+    description: 分析数据
+
+  - id: visualizer
+    type: visualization
+    name: Data Visualizer
+    description: 可视化数据
+
+  - id: reporter
+    type: writing
+    name: Report Writer
+    description: 生成报告
+
+task: |
+  分析销售数据并生成报告
+
+steps:
+  - name: collect
+    description: 收集销售数据
+    agent: collector
+    input: "sales_2026"
+    output: raw_data
+
+  - name: clean
+    description: 清洗数据
+    agent: cleaner
+    input: raw_data
+    output: clean_data
+
+  - name: analyze
+    description: 分析数据
+    agent: analyst
+    input: clean_data
+    output: analysis_results
+
+  - name: visualize
+    description: 创建可视化
+    agent: visualizer
+    input: analysis_results
+    output: charts
+
+  - name: report
+    description: 生成报告
+    agent: reporter
+    input:
+      analysis: analysis_results
+      charts: charts
+    output: final_report

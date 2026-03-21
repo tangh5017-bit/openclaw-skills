@@ -1,0 +1,79 @@
+{
+  "version": "0.1.0",
+  "created_at": "2026-03-21T16:30:00+08:00",
+  "decisions": [
+    {
+      "id": "D001",
+      "timestamp": "2026-03-21T14:00:00+08:00",
+      "layer": "analytical",
+      "problem": "创造什么原创技能",
+      "decision": "auto-task 自主任务管理器",
+      "confidence": 75,
+      "expected_outcome": "技能有用，能被使用",
+      "actual_outcome": "pending",
+      "quality_score": null,
+      "learnings": []
+    },
+    {
+      "id": "D002",
+      "timestamp": "2026-03-21T14:30:00+08:00",
+      "layer": "analytical",
+      "problem": "第二个技能选择",
+      "decision": "api-connector 通用 API 连接器",
+      "confidence": 80,
+      "expected_outcome": "成为基础设施，可复用",
+      "actual_outcome": "pending",
+      "quality_score": null,
+      "learnings": []
+    },
+    {
+      "id": "D003",
+      "timestamp": "2026-03-21T15:00:00+08:00",
+      "layer": "analytical",
+      "problem": "发布策略",
+      "decision": "发布到 GitHub",
+      "confidence": 90,
+      "expected_outcome": "全球开发者可以访问，获得 Star 和反馈",
+      "actual_outcome": "pending",
+      "quality_score": null,
+      "learnings": []
+    },
+    {
+      "id": "D004",
+      "timestamp": "2026-03-21T15:30:00+08:00",
+      "layer": "deliberative",
+      "problem": "创造什么真正有价值的东西",
+      "decision": "NeuralFlow - AI Agent 编排系统",
+      "confidence": 85,
+      "expected_outcome": "填补市场空白，成为首选工具",
+      "actual_outcome": "pending",
+      "quality_score": null,
+      "learnings": [],
+      "follow_up_date": "2026-04-21"
+    },
+    {
+      "id": "D005",
+      "timestamp": "2026-03-21T16:00:00+08:00",
+      "layer": "deliberative",
+      "problem": "如何构建思考系统",
+      "decision": "Thinking OS v0.1.0",
+      "confidence": 90,
+      "expected_outcome": "思考质量可追踪、可改进",
+      "actual_outcome": "pending",
+      "quality_score": null,
+      "learnings": [],
+      "follow_up_date": "2026-03-28"
+    }
+  ],
+  "statistics": {
+    "total_decisions": 5,
+    "by_layer": {
+      "reflex": 0,
+      "analytical": 3,
+      "deliberative": 2
+    },
+    "average_confidence": 84.0,
+    "pending_review": 5,
+    "completed_review": 0
+  }
+}

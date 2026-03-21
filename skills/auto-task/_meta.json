@@ -1,0 +1,11 @@
+{
+  "slug": "auto-task",
+  "name": "Auto-Task 自主任务管理器",
+  "version": "1.0.0",
+  "description": "让 AI 能自主安排、执行、跟踪任务的原创技能",
+  "author": "米仔",
+  "authorId": "mizai",
+  "tags": ["task", "automation", "schedule", "original"],
+  "category": "productivity",
+  "createdAt": "2026-03-21T12:00:00.000Z"
+}

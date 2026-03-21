@@ -1,0 +1,11 @@
+{
+  "slug": "api-connector",
+  "name": "API Connector 通用 API 连接器",
+  "version": "1.0.0",
+  "description": "统一接口调用任何 API - 基础设施技能",
+  "author": "米仔",
+  "authorId": "mizai",
+  "tags": ["api", "http", "integration", "infrastructure", "original"],
+  "category": "infrastructure",
+  "createdAt": "2026-03-21T14:30:00.000Z"
+}

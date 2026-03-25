@@ -1,0 +1,49 @@
+# WebHook 配置文件
+
+webhooks:
+  # GitHub 示例配置
+  github:
+    enabled: false
+    secret: "your-github-webhook-secret"
+    signatureHeader: "X-Hub-Signature-256"
+    events:
+      - push
+      - pull_request
+      - issues
+    notifyChannel: heartbeat
+  
+  # GitLab 示例配置
+  gitlab:
+    enabled: false
+    secret: "your-gitlab-webhook-token"
+    signatureHeader: "X-Gitlab-Token"
+    events:
+      - push
+      - merge_request
+    notifyChannel: heartbeat
+  
+  # Stripe 支付示例
+  stripe:
+    enabled: false
+    secret: "whsec_your_stripe_webhook_secret"
+    signatureHeader: "Stripe-Signature"
+    events:
+      - payment_intent.succeeded
+      - charge.failed
+      - customer.subscription.updated
+    notifyChannel: message
+  
+  # 自定义 Webhook
+  custom:
+    enabled: false
+    secret: "your-custom-secret"
+    signatureHeader: "X-Signature"
+    events: []
+    notifyChannel: heartbeat
+
+# 全局设置
+settings:
+  port: 3456
+  maxEvents: 1000
+  eventRetentionHours: 168  # 7 天
+  logLevel: info

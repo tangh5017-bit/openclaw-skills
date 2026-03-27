@@ -54,12 +54,17 @@ function verifySignature(payload, signature, secret, algorithm = 'sha256') {
     signature.replace(/^SHA256=/, ''),
   ];
   
-  return sigMethods.some(sig => 
-    crypto.timingSafeEqual(
-      Buffer.from(expected),
-      Buffer.from(sig)
-    )
-  );
+  // 使用 constant-time 比较，但先检查长度避免崩溃
+  return sigMethods.some(sig => {
+    try {
+      const sigBuf = Buffer.from(sig);
+      const expBuf = Buffer.from(expected);
+      if (sigBuf.length !== expBuf.length) return false;
+      return crypto.timingSafeEqual(expBuf, sigBuf);
+    } catch (e) {
+      return false;
+    }
+  });
 }
 
 /**

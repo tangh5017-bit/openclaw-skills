@@ -35,8 +35,8 @@ webhooks:
   
   # 自定义 Webhook
   custom:
-    enabled: false
-    secret: "your-custom-secret"
+    enabled: true
+    secret: "test-secret-123"
     signatureHeader: "X-Signature"
     events: []
     notifyChannel: heartbeat

@@ -244,4 +244,29 @@ process.on('SIGTERM', () => {
   });
 });
 
+// 全局错误处理 - 防止服务器崩溃
+process.on('uncaughtException', (err) => {
+  console.error('[WebHook] Uncaught Exception:', err.message);
+  console.error(err.stack);
+  // 记录错误但不退出，让服务器继续运行
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('[WebHook] Unhandled Rejection at:', promise, 'reason:', reason);
+  // 记录错误但不退出，让服务器继续运行
+});
+
+// 处理端口占用错误
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.error(`[WebHook] Port ${PORT} is already in use. Retrying in 5s...`);
+    setTimeout(() => {
+      server.close();
+      server.listen(PORT);
+    }, 5000);
+  } else {
+    console.error('[WebHook] Server error:', err.message);
+  }
+});
+
 module.exports = { server, webhookConfigs };

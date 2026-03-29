@@ -1,0 +1,18 @@
+targets:
+  # 示例配置 - 取消注释并修改为你的监控目标
+  
+  # - name: "示例商品"
+  #   url: "https://example.com/product"
+  #   selector: ".price"
+  #   interval: 30
+  #   condition: "value<100"
+  #   notify: "heartbeat"
+  #   enabled: true
+  
+  # - name: "GitHub Status"
+  #   url: "https://www.githubstatus.com"
+  #   selector: ".status-indicator"
+  #   interval: 5
+  #   condition: "any"
+  #   notify: "heartbeat"
+  #   enabled: true

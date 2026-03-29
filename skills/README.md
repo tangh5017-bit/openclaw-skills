@@ -18,6 +18,7 @@
 | **[api-connector](api-connector/)** | 通用 API 连接器 - 统一接口调用任何 API | v1.0.0 |
 | **[smart-memory](smart-memory/)** | 智能记忆管理 - 自动整理、归档、优化 AI 助手的记忆系统 | v0.1.0 |
 | **[web-hook](web-hook/)** | Webhook 接收器 - 接收外部事件触发自动化 | v0.1.0 |
+| **[site-watcher](site-watcher/)** | 网站监控器 - 监控网页变化、价格追踪 | v0.1.0 |
 
 ### 📋 计划中
 

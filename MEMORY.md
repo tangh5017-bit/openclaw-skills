@@ -12,6 +12,7 @@
 - **2026-03-21**: 米仔创造了 2 个原创技能：auto-task 自主任务管理器、api-connector 通用 API 连接器
 - **2026-03-23**: 米仔创造第 3 个原创技能：smart-memory 智能记忆管理
 - **2026-03-26**: 米仔创造第 4 个原创技能：web-hook WebHook 服务器技能
+- **2026-03-30**: 米仔创造第 5 个原创技能：site-watcher 网站监控器
 - 已发布到 GitHub 仓库（tangh5017-bit/openclaw-skills）
 - 豪哥鼓励创造原创价值，不只是下载现有技能
 
